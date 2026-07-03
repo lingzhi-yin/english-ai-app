@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: pocket-english-pwa
+    runtime: docker
+    plan: free
+    autoDeploy: true
+    healthCheckPath: /
